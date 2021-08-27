@@ -12,6 +12,7 @@
 .sidebar {
   background-color: gold;
   justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -33,4 +34,11 @@ img {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
 }
