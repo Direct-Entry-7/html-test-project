@@ -1,5 +1,17 @@
+.container1 {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 20% 80%;
+}
+
+.container2 {
+  display: grid;
+  grid-template-rows: 50px 380px 50px;
+}
+
 .sidebar {
   background-color: gold;
+  justify-content: center;
 }
 
 .header {
@@ -12,4 +24,13 @@
 
 .footer {
   background-color: lightgreen;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
 }
